@@ -1,0 +1,810 @@
+/*1921 - 10000*/
+@media screen and (min-width: 1921px) {
+}
+
+/*1280 - 1427*/
+@media screen and (max-width: 1427px) {
+    #measurement #measurement-container #measurement-container-worker img {
+        width: 490px;
+    }
+}
+
+/*1200 - 1279*/
+@media screen and (max-width: 1279px) {
+    #measurement #measurement-container #measurement-container-worker img {
+        width: 450px;
+    }
+
+    #main-container header, #main-container #titles, #guarantees-container, #portfolio #portfolio-container, #advantages #advantages-container, #reviews #reviews-container, #measurement #measurement-container, #footer #footer-container  {
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    #guarantees #guarantees-block #first-guarantee {
+        margin-right: 100px;
+    }
+
+    #guarantees #guarantees-block #third-guarantee {
+        margin-right: 100px;
+    }
+}
+
+/*1024 - 1199*/
+@media screen and (max-width: 1199px) {
+    #main {
+        height: auto;
+        min-height: auto;
+        padding-bottom: 40px;
+    }
+
+    #titles {
+        margin-top: 80px;
+    }
+
+    .block-title {
+        margin-top: 50px;
+    }
+
+    #guarantees #guarantees-block {
+        padding-bottom: 40px;
+    }
+
+    #guarantees #guarantees-block #first-guarantee {
+        margin-right: 30px;
+    }
+
+    #guarantees #guarantees-block #second-guarantee {
+        padding: 80px 0 0 0;
+        margin-bottom: 40px;
+    }
+
+    #guarantees #guarantees-block #third-guarantee {
+        padding-left: 0;
+        margin-right: 30px;
+    }
+
+    #guarantees #guarantees-block #fourth-guarantee {
+        width: 470px;
+    }
+
+    #guarantees #guarantees-block .guarantee .guarantee-description {
+        width: 100%;
+    }
+
+    .slick-dots {
+        flex-direction: column;
+        bottom: 200px;
+        padding-left: 65px;
+    }
+
+    #advantages #advantages-container #advantages-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #advantages #advantages-container #advantages-block #advantages-description .advantage .advantage-title {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #advantages #advantages-container #advantages-block #advantages-description .advantage .advantage-description br {
+        display: none;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-header {
+        margin-bottom: 20px;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-header #quote-header-text {
+        padding-top: 10px;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-header #quote-header-text br {
+        display: none;
+    }
+
+    #reviews #reviews-container #reviews-block .reviews-video-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #measurement #measurement-container #measurement-block {
+        margin: 80px auto 0 auto;
+    }
+
+    #measurement #measurement-container #measurement-container-worker {
+        display: none;
+    }
+
+    .all-blocks-description br {
+        display: none;
+    }
+
+}
+
+/*970 - 1023*/
+@media screen and (max-width: 1023px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header #logo-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 370px;
+    }
+
+    header #logo-container #logo {
+        margin-bottom: 20px;
+    }
+
+    #main header #social-networks {
+        position: relative;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        display: inline-flex;
+        top: 0;
+        right: 0;
+    }
+
+    #main header #social-networks .social-network {
+        margin-right: 20px;
+    }
+
+    header #menu ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #titles h1 {
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    #titles #titles-key {
+        justify-content: center;
+    }
+
+    #titles #button-price {
+        text-align: center;
+    }
+
+    #titles #short-advantages ul {
+        justify-content: space-evenly;
+    }
+
+    #titles #short-advantages ul li {
+        margin-right: 0;
+    }
+
+    .block-title .block-title-text span.orange, .block-title .block-title-text span.white {
+        font-size: 30px;
+    }
+
+    #guarantees #guarantees-block {
+        justify-content: center;
+    }
+
+    #guarantees #guarantees-block #first-guarantee, #guarantees #guarantees-block #second-guarantee, #guarantees #guarantees-block #third-guarantee, #guarantees #guarantees-block #fourth-guarantee {
+        margin: 20px;
+        padding: 0;
+        width: 470px;
+    }
+
+    #guarantees #guarantees-block br {
+        display: none;
+    }
+
+    #guarantees #guarantees-block .guarantee.one, #guarantees #guarantees-block .guarantee.two, #guarantees #guarantees-block .guarantee.three, #guarantees #guarantees-block .guarantee.four {
+        padding: 50px 0 0 40px;
+    }
+
+    #portfolio #portfolio-container #portfolio-kitchens-container {
+    }
+
+    #portfolio #portfolio-container #portfolio-kitchens-container .portfolio-kitchen {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .slick-list {
+        height: auto;
+    }
+
+    .slick-prev {
+        top: 250px;
+        left: 13%;
+    }
+
+    .slick-next {
+        right: 13%;
+        top: 250px;
+    }
+
+    .slick-dots {
+        flex-direction: row;
+        bottom: 60px;
+        padding-left: 0;
+        left: 0;
+        top: 420px;
+        width: 100%;
+        justify-content: center;
+        height: 20px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        width: 90%;
+        margin-top: 20px;
+        padding: 0;
+
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-number {
+        width: 70%;
+        text-align: center;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-title {
+        width: 70%;
+        text-align: center;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .city-year-price-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #portfolio #portfolio-container #portfolio-numbers-container {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    #portfolio #portfolio-container #portfolio-numbers-container .portfolio-numbers {
+        margin-bottom: 20px;
+    }
+
+    #advantages #advantages-container #quote-container #quote {
+        padding-left: 300px;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container {
+        width: 290px;
+        height: 350px;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-years {
+        margin-bottom: 20px;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-years #year-number {
+        font-size: 140px;
+        line-height: 80px;
+        padding-left: 40px;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-years #year-word {
+        font-size: 50px;
+        line-height: 50px;
+        padding-top: 5px;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-guarantee {
+        font-size: 50px;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-header {
+        margin-bottom: 5px;
+    }
+
+    #footer #footer-container #footer-top-block {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 40px;
+    }
+
+    #footer-top-first-block {
+        order: 4;
+        margin: 0 10px 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer-top-second-block {
+        order: 1;
+        margin: 0 10px 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer-top-third-block {
+        order: 2;
+        margin: 0 10px 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer-top-fourth-block {
+        order: 3;
+        margin: 0 10px 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer #footer-container #footer-top-block #footer-top-first-block #footer-networks {
+        justify-content: space-evenly;
+    }
+
+    #footer #footer-container #footer-top-block #footer-top-first-block #footer-networks .social-network {
+        padding: 0 10px;
+    }
+
+    #pop-ap #pop-ap-container #pop-ap-block {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+}
+
+/*900 - 970*/
+@media screen and (max-width: 970px) {
+    .slick-prev {
+        left: 10%;
+    }
+
+    .slick-next {
+        right: 10%;
+    }
+}
+
+/*768 - 900*/
+@media screen and (max-width: 900px) {
+    .slick-prev {
+        left: 7%;
+    }
+
+    .slick-next {
+        right: 7%;
+    }
+}
+
+/*650 - 767*/
+@media screen and (max-width: 767px) {
+    header #logo-container #burger {
+        display: inline-flex;
+    }
+
+    header #menu {
+        width: 100%;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 999;
+        text-align: center;
+        padding: 20px 0;
+        top: 95px;
+        display: none;
+    }
+
+    header #menu ul {
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+
+    header #menu ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header.menu-open {
+        background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+
+    header.menu-open #menu {
+        display: block;
+    }
+
+    .block-title {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .block-title .block-title-image {
+        display: none;
+    }
+
+    .block-title .block-title-text span.orange, .block-title .block-title-text span.white {
+        font-size: 24px;
+    }
+
+    .all-blocks-description {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    #portfolio #portfolio-container #portfolio-numbers-container {
+        margin-top: 20px;
+    }
+
+    #advantages #advantages-container #quote-container #quote {
+        padding-left: 10px;
+        padding-top: 80px;
+        height: auto;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container {
+        width: 100%;
+        height: 100px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block {
+        flex-direction: row;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-years {
+        margin-bottom: 0;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-years #year-number {
+        font-size: 50px;
+        line-height: 50px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-years #year-word {
+        font-size: 30px;
+        line-height: 50px;
+        padding-top: 0;
+        -moz-transform: none;
+        -webkit-transform: none;
+        -ms-transform: none;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-guarantee {
+        font-size: 30px;
+        padding-bottom: 2px;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-header {
+        margin-bottom: 5px;
+    }
+
+    #pop-ap #pop-ap-container #pop-ap-block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+/*610 - 650*/
+@media screen and (max-width: 650px) {
+    #portfolio #portfolio-container #portfolio-kitchens-container {
+        margin-top: 20px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-number {
+        font-size: 75px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-description   {
+        width: 80%;
+        align-items: center;
+        height: 200px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-description  .kitchen-description-tr .kitchen-description-title {
+        font-size: 14px;
+        width: 120px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-description  .kitchen-description-tr .kitchen-description-parameters {
+        font-size: 14px;
+        width: 150px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .city-year-price-container {
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-evenly;
+    }
+}
+
+/*500 - 609*/
+@media screen and (max-width: 609px) {
+    #guarantees #guarantees-block #first-guarantee, #guarantees #guarantees-block #second-guarantee, #guarantees #guarantees-block #third-guarantee, #guarantees #guarantees-block #fourth-guarantee {
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-photo-container {
+        height: 350px;
+    }
+
+    .slick-prev {
+        top: 175px;
+    }
+
+    .slick-next {
+        top: 175px;
+    }
+
+    .slick-dots {
+        top: 280px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .city-year-price-container {
+        width: 80%;
+    }
+
+    #pop-ap #pop-ap-container #pop-ap-block #pop-ap-form form {
+        margin: 0 auto;
+    }
+
+    #pop-ap #pop-ap-container #pop-ap-block #pop-ap-form #pop-ap-agreement {
+        margin: 0 auto;
+    }
+
+    #pop-ap #pop-ap-container #pop-ap-block #pop-ap-block-phone {
+        display: none;
+    }
+
+    #pop-ap #pop-ap-container {
+        max-width: 570px;
+        width: 95%;
+    }
+}
+
+/*480 - 499*/
+@media screen and (max-width: 499px) {
+    #titles h1 {
+        font-size: 30px;
+    }
+
+    #titles #titles-key span {
+        font-size: 20px;
+    }
+
+    #titles #short-advantages ul li span {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #guarantees #guarantees-block .guarantee.one, #guarantees #guarantees-block .guarantee.two, #guarantees #guarantees-block .guarantee.three, #guarantees #guarantees-block .guarantee.four {
+        padding-top: 0;
+        min-height: 150px;
+    }
+
+    #guarantees #guarantees-block {
+        padding-bottom: 0;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-title {
+        font-size: 18px;
+    }
+
+    #advantages #advantages-container #quote-container {
+        margin-top: 30px;
+    }
+
+    #reviews {
+        padding-top: 40px;
+    }
+
+    #reviews #reviews-container #reviews-block {
+        margin-top: 40px;
+    }
+
+    #reviews #reviews-container #reviews-block .reviews-video-container {
+        margin-bottom: 20px;
+    }
+
+    #reviews #reviews-container #reviews-block .reviews-video-container .reviews-video {
+        width: 450px;
+        height: 253px;
+    }
+
+}
+
+/*320 - 479*/
+@media screen and (max-width: 479px) {
+    #main header #social-networks .social-network {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    #titles h1 {
+        font-size: 20px;
+    }
+
+    #titles #titles-key img {
+        width: 40px;
+    }
+
+    #titles #titles-key span {
+        font-size: 14px;
+    }
+
+    .btn-orange {
+        width: 250px;
+    }
+
+    #titles #button-price {
+        margin-bottom: 40px;
+    }
+
+    #titles #short-advantages ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #titles #short-advantages ul li .circle {
+        margin-bottom: 5px;
+        margin-right: 0;
+    }
+
+    #titles #short-advantages ul li span {
+        font-size: 14px;
+    }
+
+    .block-title {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #guarantees #guarantees-block .guarantee .guarantee-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #guarantees #guarantees-block .guarantee .guarantee-description {
+        font-size: 14px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-photo-container {
+        height: 280px;
+    }
+
+    .slick-prev {
+        top: 140px;
+    }
+
+    .slick-next {
+        top: 140px;
+    }
+
+    .slick-dots {
+        top: 220px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-title {
+        width: 100%;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .kitchen-description {
+        width: 100%;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .city-year-price-container i, #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .city-year-price-container span {
+        font-size: 14px;
+    }
+
+    #portfolio #portfolio-container .portfolio-kitchen .kitchen-description-container .city-year-price-container {
+        width: 100%;
+    }
+
+    #portfolio #portfolio-container #portfolio-numbers-container .portfolio-numbers .portfolio-number {
+        text-align: center;
+    }
+
+    #portfolio #portfolio-container #portfolio-numbers-container .portfolio-numbers .portfolio-number img {
+        width: 80%;
+    }
+
+    #portfolio #portfolio-container #portfolio-numbers-container .portfolio-numbers .portfolio-number-description {
+        font-size: 16px;
+    }
+
+    #advantages #advantages-container #advantages-block {
+        margin-top: 20px;
+    }
+
+    #advantages #advantages-container #advantages-block #advantages-description .advantage .advantage-title {
+        font-size: 20px;
+    }
+
+    #advantages #advantages-container #quote-container {
+        padding-bottom: 0;
+    }
+
+    #advantages #advantages-container #quote-container #quote {
+        padding: 80px 7px 7px 7px;
+    }
+
+    #advantages #advantages-container #quote-container #quarter-of-century-container #quarter-of-century-block #quarter-of-century-block-years #year-number {
+        font-size: 40px;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-header #quote-header-symbol img {
+        width: 30px;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-header #quote-header-text {
+        font-size: 14px;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-footer #quote-footer-text {
+        font-size: 14px;
+        padding-right: 7px;
+    }
+
+    #advantages #advantages-container #quote-container #quote #quote-footer #quote-footer-signature img {
+        width: 80px;
+    }
+
+    #reviews {
+        padding-top: 1px;
+    }
+
+    #reviews #reviews-container #reviews-block .reviews-video-container .reviews-video {
+        width: 300px;
+        height: 171px;
+    }
+
+    #reviews #reviews-container #reviews-block .reviews-video-container .reviews-video-description {
+        text-align: center;
+    }
+
+    #measurement #measurement-container #measurement-block #measurement-block-text {
+        font-size: 20px;
+    }
+
+    form input {
+        width: 250px;
+    }
+
+    #footer #footer-container #footer-top-block .footer-bold-text {
+        text-align: center;
+    }
+
+}
